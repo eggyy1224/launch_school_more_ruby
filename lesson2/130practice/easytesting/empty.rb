@@ -1,0 +1,1 @@
+assert_empty value, 'this is not nil!'
