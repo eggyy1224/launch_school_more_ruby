@@ -18,12 +18,6 @@ class CircularBuffer
     return unless ele
     buffer.shift if buffer.size == size
     buffer.push(ele)
-    # if buffer.size == size
-    #   buffer.shift
-    #   buffer.push(ele)
-    # else
-    #   buffer.push(ele)
-    # end
   end
 
   def clear
